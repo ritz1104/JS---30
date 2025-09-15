@@ -1,0 +1,41 @@
+:root{
+    --base:#ff2600b8;
+    --spacing:100px;
+    --blur:10px;
+}
+.elem{
+    height: 500px;
+    
+}
+.elem img{
+    height: 100%;
+    padding: var(--spacing);
+    background:var(--base) ;
+    filter: blur(var(--blur));
+    object-fit: cover;
+}
+
+.h1{
+    color: var(--base);
+}
+
+body{
+    text-align: center;
+    background-color: rgb(43, 38, 95);
+    font-family: gilroy;
+    font-weight: 100;
+    font-size: 50px;
+}
+.controls{
+    margin-bottom: 50px;
+}
+
+/* a{
+    color: var(--base);
+    text-decoration: none;
+
+} */
+
+input{
+    width: 100px;
+}

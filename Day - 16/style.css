@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+h1{
+    text-shadow: 10px 10px 0 rgba(0,0,0,1);
+    font-size: 100px;
+    font-family: gilroy;
+    transition: 0.1s text-shadow ease;
+}
